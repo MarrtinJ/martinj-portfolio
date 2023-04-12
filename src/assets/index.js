@@ -29,13 +29,13 @@ import pandas from "./tech/pandas.svg";
 import keras from "./tech/keras.png";
 
 import cpslo from "./company/cpslo.png";
-import trees from "./company/trees.svg"
+import trees from "./company/trees.svg";
 
-import fantasybball from "./fantasybball.png";
-import saferschools from "./saferschools.png";
-import minecraftpcg from "./minecraft.png";
-import guitartab from "./guitartab.png";
-import sharkspotting from "./sharkspotting.png";
+import fantasybball from "./projects/fantasybball.png";
+import saferschools from "./projects/saferschools.png";
+import minecraftpcg from "./projects/minecraft.png";
+import guitartab from "./projects/guitartab.png";
+import sharkspotting from "./projects/sharkspotting.png";
 
 export {
   headshot,
