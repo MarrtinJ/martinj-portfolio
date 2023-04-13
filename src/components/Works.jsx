@@ -27,13 +27,13 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
               className='w-full h-full object-cover rounded-2xl'
             />
           </a>
-          <div 
+          <div
             className={`absolute inset-0 flex justify-end m-3 card-img_hover gap-1`}
-            // className={`${!doc_link ? "hidden" : "absolute inset-0 flex justify-end m-3 card-img_hover gap-1"}`}
+          // className={`${!doc_link ? "hidden" : "absolute inset-0 flex justify-end m-3 card-img_hover gap-1"}`}
           >
             <div
               onClick={() => window.open(doc_link, "_blank")}
-              className={`${!doc_link ? "hidden": "black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"}`}
+              className={`${!doc_link ? "hidden" : "black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"}`}
             >
               <img
                 src={documents}
@@ -74,7 +74,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link, 
 
 const Works = () => {
   return (
-    <>
+    <div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects</h2>
@@ -96,7 +96,7 @@ const Works = () => {
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
-    </>
+    </div>
   )
 }
 
