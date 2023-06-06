@@ -38,13 +38,13 @@ const Hero = () => {
               href="https://github.com/MarrtinJ"
               target="_blank"
               className="max-w-[75px]"
-              >
+            >
               <img
                 src={github}
                 alt="github" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1HSc2bCdXRktSBhPk291gMiRjxhytTium/view?usp=sharing"
+              href="https://drive.google.com/file/d/1dELtdsIb0xO3_TdN2d6GB6k-wh3ufwQx/view?usp=sharing"
               target="_blank">
               <img
                 src={resume_icon}
