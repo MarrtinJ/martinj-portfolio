@@ -36,6 +36,7 @@ import saferschools from "./projects/saferschools.png";
 import minecraftpcg from "./projects/minecraft.png";
 import guitartab from "./projects/guitartab.png";
 import sharkspotting from "./projects/sharkspotting.png";
+import carhub from "./projects/carhub.png"
 
 export {
   headshot,
@@ -72,4 +73,5 @@ export {
   minecraftpcg,
   guitartab,
   sharkspotting,
+  carhub
 };

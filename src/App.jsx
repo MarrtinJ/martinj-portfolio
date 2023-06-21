@@ -2,7 +2,8 @@ import { BrowserRouter } from "react-router-dom"
 
 import { About, Contact, Experience, Hero, Navbar, Tech, Works, StarsCanvas } from './components'
 
-// 
+// npm run dev to start development server
+
 const App = () => {
   return (
     <BrowserRouter>

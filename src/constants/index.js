@@ -25,7 +25,8 @@ import {
     sharkspotting,
     threejs,
     pandas,
-    guitartab
+    guitartab,
+    carhub
 } from "../assets";
 
 export const navLinks = [
@@ -171,7 +172,29 @@ const experiences = [
 
 const projects = [
     {
-        name: "Modeling Daily Fantasy Basketball",
+        name: "Carhub",
+        description:
+            "A device responsive website for a fictional car rental company built using Next.js, TypeScript, and Tailwind.css. Incorporates external APIs to fetch car metadata and images. Also supports custom searches and filters for manufacturers, model, mileage, etc.",
+        tags: [
+            {
+                name: "Next.js",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Tailwind.css",
+                color: "green-text-gradient",
+            },
+            {
+                name: "TypeScript",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: carhub,
+        source_code_link: "https://github.com/MarrtinJ/Carhub",
+        doc_link: "https://nextjs-carhub.vercel.app/"
+    },
+    {
+        name: "Master's Thesis - Modeling Daily Fantasy Basketball",
         description:
             "An attempt to optimize daily fantasy basketball by employing machine learning techniques to predict player performance and evolutionary algorithms to construct lineups.",
         tags: [
