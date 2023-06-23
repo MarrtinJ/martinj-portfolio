@@ -37,6 +37,7 @@ import minecraftpcg from "./projects/minecraft.png";
 import guitartab from "./projects/guitartab.png";
 import sharkspotting from "./projects/sharkspotting.png";
 import carhub from "./projects/carhub.png"
+import examplerestaurant from "./projects/examplerestaurant.png"
 
 export {
   headshot,
@@ -73,5 +74,6 @@ export {
   minecraftpcg,
   guitartab,
   sharkspotting,
-  carhub
+  carhub,
+  examplerestaurant
 };

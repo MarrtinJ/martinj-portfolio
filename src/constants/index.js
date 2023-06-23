@@ -26,7 +26,8 @@ import {
     threejs,
     pandas,
     guitartab,
-    carhub
+    carhub,
+    examplerestaurant
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +51,7 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "Full Stack React Developer",
         icon: web,
     },
     {
@@ -58,11 +59,11 @@ const services = [
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Machine Learning Research",
         icon: backend,
     },
     {
-        title: "Data Scientist",
+        title: "Data Science Enthusiast",
         icon: creator,
     },
 ];
@@ -174,14 +175,14 @@ const projects = [
     {
         name: "Carhub",
         description:
-            "A device responsive website for a fictional car rental company built using Next.js, TypeScript, and Tailwind.css. Incorporates external APIs to fetch car metadata and images. Also supports custom searches and filters for manufacturers, model, mileage, etc.",
+            "A device responsive website for a fictional car rental company built using Next.js, TypeScript, and Tailwind CSS. Incorporates external APIs to fetch car metadata and images. Also supports custom searches and filters for manufacturers, model, mileage, etc.",
         tags: [
             {
                 name: "Next.js",
                 color: "blue-text-gradient",
             },
             {
-                name: "Tailwind.css",
+                name: "Tailwind CSS",
                 color: "green-text-gradient",
             },
             {
@@ -192,6 +193,30 @@ const projects = [
         image: carhub,
         source_code_link: "https://github.com/MarrtinJ/Carhub",
         doc_link: "https://nextjs-carhub.vercel.app/"
+    },
+    {
+        name: "Example Restaurant",
+        description:
+            "Implemented a device responsive static website for a fictional fine dining restaurant based off a Figma design. Website built using base React and CSS.",
+        tags: [
+            {
+                name: "Frontend",
+                color: "blue-text-gradient",
+
+            },
+            {
+                name: "React",
+                color: "green-text-gradient",
+
+            },
+            {
+                name: "CSS",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: examplerestaurant,
+        source_code_link: "https://github.com/MarrtinJ/example_restaurant",
+        doc_link: "https://mj-example-restaurant.netlify.app/"
     },
     {
         name: "Master's Thesis - Modeling Daily Fantasy Basketball",
