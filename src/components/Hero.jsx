@@ -44,7 +44,7 @@ const Hero = () => {
                 alt="github" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1BglgGXsYeCu8yAQk3vj2DM9WnDn8lUar/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bCct3d4DmXEJEo1FmSzffXiwqM4Z3fN5/view?usp=sharing"
               target="_blank">
               <img
                 src={resume_icon}
