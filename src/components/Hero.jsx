@@ -23,8 +23,8 @@ const Hero = () => {
             Hi, I'm <span className='text-logo-green'>Martin</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A recent graduate looking for work in <br className='sm:block hidden' />
-            software development and artificial intelligence
+            A recent graduate looking for opportunities in <br className='sm:block hidden' />
+            software development, data analytics, and artificial intelligence
           </p>
           <div className="flex flex-row py-5 gap-5">
             <a
@@ -44,7 +44,7 @@ const Hero = () => {
                 alt="github" />
             </a>
             <a
-              href="https://drive.google.com/file/d/1bCct3d4DmXEJEo1FmSzffXiwqM4Z3fN5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1QfUwSsmzr_TAdq0a4ebvRrpp6hlyGU5S/view?usp=sharing"
               target="_blank">
               <img
                 src={resume_icon}
