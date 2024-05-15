@@ -17,6 +17,7 @@ import {
     figma,
     docker,
     keras,
+    scaleai,
     cpslo,
     trees,
     fantasybball,
@@ -132,6 +133,18 @@ const technologies = [
 ];
 
 const experiences = [
+    {
+        title: "LLM QA Engineer",
+        company_name: "Scale AI",
+        icon: scaleai,
+        iconBg: "#E6DEDD",
+        date: "February 2024 - Current",
+        points: [
+            "Evaluated AI-generated responses using a Side-by-Side (SxS) scoring system, enhancing model accuracy by ranking based on key dimensions",
+            "Conducted comprehensive testing of their LLM, meticulously analyzing functionality, usability, and performance to ensure adherence to quality standards and user requirements",
+            "Developed and executed detailed test plans and test cases, identifying defects and anomalies through systematic testing methodologies, and effectively communicated findings to development teams for resolution",
+        ],
+    },
     {
         title: "IT Help Desk Assistant",
         company_name: "Cal Poly SLO, Information Technology Services",

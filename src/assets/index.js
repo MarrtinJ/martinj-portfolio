@@ -28,6 +28,7 @@ import threejs from "./tech/threejs.svg";
 import pandas from "./tech/pandas.svg";
 import keras from "./tech/keras.png";
 
+import scaleai from "./company/scaleai.jpg"
 import cpslo from "./company/cpslo.png";
 import trees from "./company/trees.svg";
 
@@ -67,6 +68,7 @@ export {
   threejs,
   pandas,
   keras,
+  scaleai,
   cpslo,
   trees,
   fantasybball,
